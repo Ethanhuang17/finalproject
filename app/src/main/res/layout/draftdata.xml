@@ -7,42 +7,60 @@
         android:id="@+id/linearlayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/images">
 
         <EditText
             android:id="@+id/height"
-            android:layout_width="match_parent"
-            android:layout_height="117dp" />
+            android:layout_width="131dp"
+            android:layout_height="66dp"
+            android:background="@drawable/edit_round"
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="height(cm)"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:textColor="#ffff"/>
 
         <EditText
             android:id="@+id/weight"
-            android:layout_width="match_parent"
-            android:layout_height="102dp" />
+            android:layout_width="131dp"
+            android:layout_height="66dp"
+            android:textSize="40sp"
+            android:background="@drawable/edit_round" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#ffff"
             android:text="weight(kg)"
             android:textSize="30sp" />
 
         <EditText
-            android:id="@+id/mood"
-            android:layout_width="match_parent"
-            android:layout_height="78dp" />
+            android:id="@+id/age"
+            android:layout_width="131dp"
+            android:layout_height="66dp"
+            android:textSize="40sp"
+            android:background="@drawable/edit_round" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="mood" />
+            android:textColor="#ffff"
+            android:text="age"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_round"
+            android:text="complete" />
+
     </LinearLayout>
 </LinearLayout>
